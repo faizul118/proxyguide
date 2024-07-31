@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>কীভাবে NekoBox এর সাথে v2rayfree ব্যবহার করবেন?</h1>
+  <p style="color: red;"><strong>বিশেষ দ্রষ্টব্য:</strong><br>এখানে ওপেন সোর্স থার্ড পার্টি প্রক্সি ব্যবহার করা হয়েছে।<br>এগুলা সচরাচর নিরাপদ হলেও যেকোনো ধরণের সমস্যা হলে দ্বায়ভার আপনার।<br><code>যেকোনো ধরণের প্রক্সি/ভিপিএন দিয়ে অতি গুরত্বপূর্ণ কাজ করা থেকে বিরত থাকুন। (ব্যাংকিং, প্রাইভেট ইনফো দেখা ইত্যাদি)</code></p>
+  <br>
+  <p>১। NekoBox ডাউনলোড করুন নিচের লিংক থেকে,<br><a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest">https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest</a></p>
+  <div style="border: 1px solid; padding: 5px; display: inline-block;">
+  <p style="color: green;"><strong>আপনার র‍্যাম ৪ জিবি এর উপরে হলে ফোন ৬৪ বিট (arm64-v8a), এই লেখা সহ ফাইলটা ডাউনলোড করবেন। যেমন: <code>NB4A-1.2.9-arm64-v8a.apk</code></strong></p>
+  <p style="color: green;">৪ জিবি বা এর কম হলে ৩২ বিট (armeabi-v7a) বা ৬৪ বিট (arm64-v8a) যেকোনো একটা হতে পারে।  সেক্ষেত্রে <a href="https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker">64bit Checker (Android)</a> অ্যাপটা ব্যবহার করে নিশ্চিত হতে পারেন।<br><strong>৩২ বিট হলে armeabi-v7a লেখা সহ ফাইলটা ডাউনলোড করবেন যেমন: <code>NB4A-1.2.9-armeabi-v7a.apk</code></strong></p>
+</div>
+  <p>২। ইন্সটলের পর অ্যাপ ওপেন করে <span style="display: inline; border: 1px solid; padding: 2.5px;">বামদিকের ৩ লাইন ওয়ালা মেনু</span> > <span style="display: inline; border: 1px solid; padding: 2.5px;">Group</span> > <span style="display: inline; border: 1px solid; padding: 2.5px;">৩ লাইনের সাথে প্লাস আইকন</span> এ যাবেন।</p>
+  <p>৩। Group name যা খুশি দিবেন। Group type এ Subscription দিবেন। Landing Proxy এর নিচে Subscription Link এ নিচের লিংক বসায়ে OK করবেন,<br><code><u>https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2</u></code></p>  
+  <p>৪। বামদিকের মেনু থেকে <strong>Configuration</strong> এ গিয়ে <span style="display: inline; border: 1px solid; padding: 2.5px;">ডানের ৩ ডট মেনু</span> > <span style="display: inline; border: 1px solid; padding: 2.5px;">Connection Test</span> > <span style="display: inline; border: 1px solid; padding: 2.5px;">TCPing</span> রান করবেন। টেস্ট শেষ হলে একই ৩ ডট মেনু থেকে <span style="display: inline; border: 1px solid; padding: 2.5px;">Order</span> > <span style="display: inline; border: 1px solid; padding: 2.5px;">By Delay</span> দিবেন।</p>
+  <p>৫। করার পর প্রথম থেকে একটা করে এন্ট্রি ক্লিক করবেন আর নিচের গোল প্লেনের মতো বাটন ক্লিক করবেন।</p>
+  <p><code>Connected, tap to check connection</code> লেখা আসলে ওটায় ক্লিক করবেন।<br><code style="color: red;">Failed: Timeout লেখা আসলে পরের এন্ট্রিতে ক্লিক করে আবারও টেস্ট করবেন।</code><br><code style="color: green;"><strong>Success: HTTP handshake took ____ms আসলে আপনার কাজ হয়ে গেছে। এখন ফেবু চালাতে অসুবিধা হবে না।</strong></code></p>
+</body>
